@@ -68,7 +68,7 @@ export default {
 
     methods: {
         getDelayedTasks() {
-            fetch('http://localhost:8081/api/tasks/delayed', {
+            fetch('https://task-management-spring-crud-api.onrender.com/api/tasks/delayed', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
